@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="./css/news.css">
+</head>
+<body>
+    
+<!-- Top Navbar -->
+<header class="top-navbar">
+    <div class="container">
+        <div class="logo">
+            <h1>TV Show Finder</h1>
+        </div>
+        <div class="search-bar">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search TV shows..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div class="auth-links">
+            <a href="#">Login</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+</header>
+
+<!-- Second Navbar -->
+<nav class="second-navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://www.tvmaze.com/shows" target="_blank">Shows</a></li>
+            <li><a href="https://www.tvmaze.com/people" target="_blank">People</a></li>
+            <li><a href="https://www.tvmaze.com/networks" target="_blank">Network</a></li>
+        <li><a href="#">Countdown</a></li>
+        <li><a href="#">Forums</a></li>
+        <li><a href="#">Web Channels</a></li>
+        <li><a href="#">Schedule</a></li>
+    </ul>
+</nav>
+
+<!-- Search Results Section -->
+<section class="show-section" id="search-results-section">
+    <h3>Search Results</h3>
+    <div class="show-grid" id="search-results">
+        <!-- Search results will be dynamically inserted here -->
+    </div>
+</section>
+
+<!-- Trending Shows Section -->
+<section class="trending-section">
+    <h3>Trending Shows</h3>
+    <div class="show-grid" id="trending-shows">
+        <!-- Trending shows will be dynamically inserted here -->
+    </div>
+</section>
+
+<script src="./script/news.js"></script>
+
+</body>
+</html>

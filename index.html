@@ -14,29 +14,91 @@
     </div> -->
     
     <body>
-        <header>
-            <h1>TV Show Finder</h1>
-            <form id="search-form">
-                <input type="text" id="search-input" placeholder="Search for a TV Show" required>
-                <button type="submit">Search</button>
-            </form>
-        </header>
-    
-        <main>
-            <!-- <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <img src="./css/images/modern-television-broadcasting-movie-wide-screen-generative-ai.jpg" alt="Image 1">
-                </div>
-                <div class="mySlides fade">
-                    <img src="./assets/images/Img-5-no-bg.png" alt="Image 2">
-                </div> -->
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navbar -->
+    <header class="top-navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>TV Show Finder</h1>
             </div>
-            <div id="results-container"></div>
-        </main>
+            <div class="search-bar">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Search TV shows..." required>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <div class="auth-links">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Second Navbar -->
+    <nav class="second-navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://www.tvmaze.com/shows" target="_blank">Shows</a></li>
+            <li><a href="https://www.tvmaze.com/people" target="_blank">People</a></li>
+            <li><a href="https://www.tvmaze.com/networks" target="_blank">Network</a></li>
+            <li><a href="news.html" target="_blank">News</a></li>
+            <li><a href="#">Countdown</a></li>
+        <li><a href="#">Forums</a></li>
+        <li><a href="#">Web Channels</a></li>
+        <li><a href="#">Schedule</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover Your Next Favorite Show</h2>
+            <p>Explore trending shows, top picks, and much more.</p>
+            <button>Browse Shows</button>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- Search Results Section -->
+        <section class="show-section">
+            <h3>Search Results</h3>
+            <div class="show-grid" id="search-results">
+                <!-- Search results will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Popular Shows Section -->
+        <section class="show-section">
+            <h3>Popular Shows</h3>
+            <div class="show-grid" id="popular-shows">
+                <!-- Show cards will be dynamically inserted here -->
+            </div>
+        </section>
+
     
-        <footer>
-            <p>&copy; 2024 TV Show Finder</p>
-        </footer>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <p>&copy; 2024 TV Show Finder. All rights reserved.</p>
+        </div>
+    </footer>
+    
     <script src="./script/script.js"></script>
 </body>
 </html>

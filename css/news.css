@@ -118,53 +118,7 @@ body {
     text-decoration: underline;
 }
 
-/* Hero Section */
-.hero {
-    background: url('https://img.freepik.com/free-photo/modern-television-broadcasting-movie-wide-screen-generative-ai_188544-33322.jpg?t=st=1727392505~exp=1727396105~hmac=2fe59800112615e450d858c948a6c3ff36bccb7990c43c6f6fad4b5744cd4766&w=740') no-repeat center center/cover;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    margin-bottom: 40px;
-}
-
-.hero-content {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 30px;
-    border-radius: 10px;
-}
-
-.hero h2 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-.hero button {
-    padding: 10px 20px;
-    background-color: #f44336;
-    border: none;
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.hero button:hover {
-    background-color: #e53935;
-}
-
-/* Hide Second Navbar on Scroll */
-.sticky {
-    display: none;
-}
-
-/* Show and Hide on Scroll */
-.show-section {
-    padding: 30px 0;
-}
-
+/* Show Grid */
 .show-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -176,6 +130,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .show-card img {
@@ -194,26 +149,4 @@ body {
 .show-details p {
     font-size: 0.9rem;
     color: #555;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-links {
-    margin-bottom: 10px;
-}
-
-.footer-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    text-decoration: underline;
 }
