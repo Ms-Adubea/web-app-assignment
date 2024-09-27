@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #AC5AB5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#popular-shows {
+    padding: 20px;
+}
+
+.show-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.show-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(25% - 20px);
+}
+
+.show-image {
+    width: 100%;
+}
+
+.show-details {
+    padding: 10px;
+}
+
+.show-details h3 {
+    margin: 0;
+}
+
+.show-details p {
+    margin: 10px 0 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .show-card {
+        width: calc(50% - 20px); /* 2 items per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .show-card {
+        width: 100%; /* 1 item per row */
+    }
+}
