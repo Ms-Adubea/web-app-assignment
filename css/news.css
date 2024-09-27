@@ -8,8 +8,8 @@
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #333;
+    color: #f4f4f4;
     line-height: 1.6;
     padding-top: 70px; /* To avoid content being hidden behind the fixed navbar */
 }
@@ -144,6 +144,7 @@ body {
 
 .show-details h4 {
     margin: 10px 0;
+    color: #333;
 }
 
 .show-details p {
