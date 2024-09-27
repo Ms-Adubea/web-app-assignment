@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #AC5AB5;
+    background-color: #0BAAF0;
     padding: 15px 0;
     color: white;
     position: fixed;
@@ -65,7 +65,7 @@ body {
 
 .search-bar button {
     padding: 10px;
-    background-color: #EECE5B;
+    background-color: #914599;
     color: white;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -83,12 +83,12 @@ body {
     color: white;
     text-decoration: none;
     padding: 10px;
-    background-color: #EECE5B;
+    background-color: #914599;
     border-radius: 5px;
 }
 
 .auth-links a:hover {
-    background-color: #914599;
+    background-color: #0BAAF0;
 }
 
 /* Second Navbar */
@@ -121,7 +121,7 @@ body {
 /* Hero Section */
 .hero {
     background: url('https://img.freepik.com/free-photo/modern-television-broadcasting-movie-wide-screen-generative-ai_188544-33322.jpg?t=st=1727392505~exp=1727396105~hmac=2fe59800112615e450d858c948a6c3ff36bccb7990c43c6f6fad4b5744cd4766&w=740') no-repeat center center/cover;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +143,7 @@ body {
 
 .hero button {
     padding: 10px 20px;
-    background-color: #AC5AB5;
+    background-color: #914599;
     border: none;
     color: white;
     font-size: 1.2rem;
@@ -152,7 +152,7 @@ body {
 }
 
 .hero button:hover {
-    background-color: #e53935;
+    background-color: #0BAAF0;
 }
 
 /* Hide Second Navbar on Scroll */
@@ -163,6 +163,7 @@ body {
 /* Show and Hide on Scroll */
 .show-section {
     padding: 30px 0;
+    padding-left: 10px;
 }
 
 .show-grid {
@@ -196,9 +197,35 @@ body {
     color: #555;
 }
 
+.popular-shows {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.popular-shows a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.popular-shows button {
+    padding: 10px;
+    background-color: #914599;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.popular-shows button:hover{
+background-color: #0BAAF0;
+}
+
 /* Footer */
 footer {
-    background-color: #AC5AB5;
+    background-color: #0BAAF0;
     color: white;
     padding: 20px 0;
     text-align: center;

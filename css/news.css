@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #AC5AB5;
+    background-color: #0BAAF0;
     padding: 15px 0;
     color: white;
     position: fixed;
@@ -65,7 +65,7 @@ body {
 
 .search-bar button {
     padding: 10px;
-    background-color: #EECE5B;
+    background-color: #914599;
     color: white;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -83,12 +83,12 @@ body {
     color: white;
     text-decoration: none;
     padding: 10px;
-    background-color: #EECE5B;
+    background-color: #914599;
     border-radius: 5px;
 }
 
 .auth-links a:hover {
-    background-color: #914599;
+    background-color: #0BAAF0;
 }
 
 /* Second Navbar */
